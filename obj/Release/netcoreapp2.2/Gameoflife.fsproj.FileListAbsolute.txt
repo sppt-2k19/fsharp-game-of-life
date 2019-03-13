@@ -1,0 +1,10 @@
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/bin/Release/netcoreapp2.2/Gameoflife.deps.json
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/bin/Release/netcoreapp2.2/Gameoflife.runtimeconfig.json
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/bin/Release/netcoreapp2.2/Gameoflife.runtimeconfig.dev.json
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/bin/Release/netcoreapp2.2/Gameoflife.dll
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/bin/Release/netcoreapp2.2/Gameoflife.pdb
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/obj/Release/netcoreapp2.2/Gameoflife.fsprojAssemblyReference.cache
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/obj/Release/netcoreapp2.2/Gameoflife.AssemblyInfoInputs.cache
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/obj/Release/netcoreapp2.2/Gameoflife.AssemblyInfo.fs
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/obj/Release/netcoreapp2.2/Gameoflife.dll
+/Users/thor/RiderProjects/Gameoflife/Gameoflife/obj/Release/netcoreapp2.2/Gameoflife.pdb
