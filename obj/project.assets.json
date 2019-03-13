@@ -794,11 +794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thor/RiderProjects/Gameoflife/Gameoflife/Gameoflife.fsproj",
+      "projectUniqueName": "/Users/thor/Documents/GitHub/fsharp-game-of-life/Gameoflife.fsproj",
       "projectName": "Gameoflife",
-      "projectPath": "/Users/thor/RiderProjects/Gameoflife/Gameoflife/Gameoflife.fsproj",
+      "projectPath": "/Users/thor/Documents/GitHub/fsharp-game-of-life/Gameoflife.fsproj",
       "packagesPath": "/Users/thor/.nuget/packages/",
-      "outputPath": "/Users/thor/RiderProjects/Gameoflife/Gameoflife/obj/",
+      "outputPath": "/Users/thor/Documents/GitHub/fsharp-game-of-life/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
