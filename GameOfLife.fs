@@ -4,7 +4,6 @@ open System
 
 let iterateGrid (grid:string) =
     let lines = grid.Split([|'\r';'\n'|], StringSplitOptions.RemoveEmptyEntries)
-    let lines = lines |> Array.filter (fun line -> line.Length > 0)
     let width = lines.[0].Length
     let height = lines.Length
     let computeNeighbours x y =
@@ -12,25 +11,23 @@ let iterateGrid (grid:string) =
          -1, 0;       1, 0
          -1, 1; 0, 1; 1, 1]
         |> List.map (fun (dx,dy) ->
-            let x,y = x+dx, y+dy
-            if x >=0 && x < width && y >= 0 && y < height &&
-               lines.[y].Chars(x) = '1'
+            let nx,ny = x+dx, y+dy
+            if nx >=0 && nx < width && ny >= 0 && ny < height &&
+               lines.[ny].Chars(nx) = '1'
             then 1
             else 0
         ) |> List.sum
 
     let life x y c =       
         match c, computeNeighbours x y with
-        | '1' , 2 -> c
+        | '1' ,2 ->  c
         |  _ , 3 -> '1'
         |  _ , _ -> '0'
     
     
-    lines |> Array.mapi (fun y line ->
-        let chars =
-            line.ToCharArray() |> Array.mapi (fun x c ->
-                life x y c
-            )
-        String(chars)
+    let newLines = lines |> Array.mapi (fun y line ->
+        let chars = line.ToCharArray()
+        let values = Array.mapi (fun x c -> life x y c) chars
+        String(values)
     )
-    |> String.concat "\r\n"
+    String.Join("\r\n", newLines)

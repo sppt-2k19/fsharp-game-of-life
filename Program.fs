@@ -29,8 +29,9 @@ let main argv =
 00000000000000000000000000000000000000000000000000000000000000000000000000000000
 "
     for i in 0..200 do
-//        Console.Clear()
+        Console.Clear()
+        Console.WriteLine()
         grid <- iterateGrid grid
-//        printfn "%s" grid
+        printfn "%s" grid
     0
 
