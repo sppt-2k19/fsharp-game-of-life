@@ -1,6 +1,7 @@
 .idea/
 bin/
 obj/
+**.DS_Store
 ### macOS ###
 # General
 .DS_Store
